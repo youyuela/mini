@@ -9,6 +9,117 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    111
+    
+    <div id="root" style="height:100vh;"></div>
+    <div class="container mx-auto px-4 py-8">
+      <h1 class="text-4xl font-bold text-center mb-8 text-black">mini.kkimg.com Image 图像压缩常见问题解答</h1>
+
+      <div class="space-y-6">
+      <section>
+          <h2 class="text-2xl font-semibold mb-4 text-black">一般问题</h2>
+          <div class="space-y-4">
+              <div class="border-b border-gray-200 pb-4">
+              <h3 class="font-bold text-lg text-black">什么是 mini.kkimg.com ？</h3>
+              <p class="mt-2">mini.kkimg.com 是一款开源的批量图像压缩工具，支持多种图像格式。它是 PicSmaller （https://github.com/joye61/pic-smaller） 的一个分支，可在 https://github.com/airyland/pic-smaller 上使用，并在 MIT 许可下分发。</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">mini.kkimg.com 支持哪些图像格式？</h3>
+                  <p class="mt-2">mini.kkimg.com 支持各种格式，包括 JPEG, WEBP, PNG, GIF, 和 AVIF.</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                <h3 class="font-bold text-lg text-black">将 mini.kkimg.com 与我的图像一起使用是否安全？</h3>
+                <p class="mt-2">是的，它是完全安全的。所有图像压缩和转换过程都在浏览器中本地执行。您的图片永远不会上传到任何服务器，以确保您的数据隐私和安全。</p>
+            </div>
+          </div>
+      </section>
+      
+      <section>
+          <h2 class="text-2xl font-semibold mb-4 text-black">用法</h2>
+          <div class="space-y-4">
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">如何将图片上传到 mini.kkimg.com?</h3>
+                  <p class="mt-2">您可以通过单击上传区域或将文件和文件夹拖放到其上来选择文件。</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">我可以一次添加多张图片吗？</h3>
+                  <p class="mt-2">是的，您可以批量附加图像或一次添加整个文件夹。</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">如何比较原始图像和压缩图像？</h3>
+                  <p class="mt-2">使用预览功能，该功能允许您拖动分割线以比较原始图像（左侧）和压缩图像（右侧）。</p>
+              </div>
+          </div>
+      </section>
+      
+      <section>
+          <h2 class="text-2xl font-semibold mb-4 text-black">压缩选项</h2>
+          <div class="space-y-4">
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">我可以在压缩过程中调整图像大小吗？</h3>
+                  <p class="mt-2">是的，您可以使用各种模式调整图像大小：</p>
+                  <ul class="list-disc list-inside mt-2 ml-4">
+                      <li>设置高度（宽度自动缩放）</li>
+                      <li>设置宽度（高度自动缩放）</li>
+                      <li>设置短边（长边自动缩放）</li>
+                      <li>设置长边（短边自动刻度）</li>
+                  </ul>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">我可以为不同的图像格式调整哪些参数？</h3>
+                  <p class="mt-2">您可以调整：</p>
+                  <ul class="list-disc list-inside mt-2 ml-4">
+                      <li>JPEG/WEBP: 输出图像质量 （0-1）</li>
+                      <li>PNG: 输出颜色数量 （2-256） 和抖动系数 （0-1）</li>
+                      <li>GIF: 抖动选项</li>
+                      <li>AVIF: 输出图像质量 （1-100） 和压缩速度 （1-10）</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      
+      <section>
+          <h2 class="text-2xl font-semibold mb-4 text-black">管理压缩图像</h2>
+          <div class="space-y-4">
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">如何下载压缩图像？</h3>
+                  <p class="mt-2">您可以下载单个图像或一次保存所有压缩图像。</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">我可以从列表中删除图片吗？</h3>
+                  <p class="mt-2">是的，您可以删除单个图像或从列表中清除所有图像。</p>
+              </div>
+          </div>
+      </section>
+      
+      <section>
+          <h2 class="text-2xl font-semibold mb-4 text-black">故障排除</h2>
+          <div class="space-y-4">
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">遇到页面出现 404 错误怎么办？</h3>
+                  <p class="mt-2">如果您看到 404 错误，则表示您尝试访问的网页不存在。使用“返回主页”选项返回主页。</p>
+              </div>
+              <div class="border-b border-gray-200 pb-4">
+                  <h3 class="font-bold text-lg text-black">如何将压缩选项重置为默认值？</h3>
+                  <p class="mt-2">使用“重置选项”按钮将所有压缩设置恢复为默认值。</p>
+              </div>
+          </div>
+      </section>
+  </div>
+
+
+  <footer class="py-8 w-full mt-auto bg-accents-1 z-20">
+    <p class="flex items-center justify-center">
+      <a href="https://www.kkimg.com/" aria-label="AI.LS Link" target="_blank" class="text-slate-600 ml-2">看看图片</a>
+      <span class="mx-2">·</span>
+      <a href="https://mini.kkimg.com/" aria-label="Favicon.im Link" target="_blank" class="text-slate-600 ml-2">图片压缩</a>
+      <span class="mx-2">·</span>
+      <a href="https://card.kkimg.com/" aria-label="heic.xyz Link" target="_blank" class="text-slate-600 ml-2">文字卡片</a>
+      <span class="mx-2">·</span>
+      <a href="https://www.800880.com/" aria-label="Query.domains Link" target="_blank" class="text-slate-600 ml-2">八零导航</a>
+      <span class="mx-2">·</span>
+      <a href="https://www.eeee.me/" aria-label="ip.network Link" target="_blank" class="text-slate-600 ml-2">思意博客</a>
+    </p>
+    <p class="text-gray flex items-center justify-center text-xs text-slate-400">© www.kkimg.com</p></footer>
+      
   </body>
 </html>
